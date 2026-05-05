@@ -57,11 +57,11 @@
       },
       "authHeader": {
         "type": "string",
-        "description": "HTTP header name used to send the API key to the MCP endpoint. Defaults to 'Authorization' with a 'Bearer ' value prefix."
+        "description": "HTTP header name used to send the API key to the MCP endpoint. Defaults to 'api_key'. Override (e.g. to 'Authorization') if Explorium documents a different header."
       },
       "authValuePrefix": {
         "type": "string",
-        "description": "String prepended to the API key in the auth header value (e.g. 'Bearer '). Set to empty string for raw API-key headers like 'API_KEY'."
+        "description": "String prepended to the API key in the auth header value. Defaults to empty (raw API-key auth). Set to 'Bearer ' for bearer-token schemes."
       },
       "toolCacheTtlSec": {
         "type": "integer",
@@ -90,12 +90,12 @@
     },
     "authHeader": {
       "label": "Auth header name",
-      "help": "Defaults to Authorization. Change only if Explorium documents a different header.",
+      "help": "Defaults to 'api_key'. Change only if Explorium documents a different header.",
       "advanced": true
     },
     "authValuePrefix": {
       "label": "Auth value prefix",
-      "help": "Defaults to 'Bearer '. Set to empty for raw API-key auth.",
+      "help": "Defaults to empty (raw API-key auth). Set to 'Bearer ' for bearer-token schemes.",
       "advanced": true
     },
     "toolCacheTtlSec": {
