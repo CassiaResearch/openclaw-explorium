@@ -45,11 +45,9 @@
   "engines": {
     "node": ">=20"
   },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.27.1"
-  },
+  "dependencies": {},
   "peerDependencies": {
-    "openclaw": "^2026.4"
+    "openclaw": "^2026"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
