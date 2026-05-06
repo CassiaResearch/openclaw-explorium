@@ -2,7 +2,7 @@
   "id": "openclaw-explorium",
   "name": "Explorium",
   "description": "Workflow skill for the Explorium MCP server. Tools are surfaced via OpenClaw bundle-mcp from mcp.servers.explorium.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "skills": ["./skills"],
   "activation": {
     "onStartup": true
